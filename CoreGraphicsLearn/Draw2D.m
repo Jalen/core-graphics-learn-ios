@@ -16,7 +16,7 @@
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
 	CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
-	CGContextFillRect(context, CGRectMake(0, 0, 400, 500));
+	CGContextFillRect(context, rect);
 	
 	CGContextSetLineWidth(context, 20.0);
 	
